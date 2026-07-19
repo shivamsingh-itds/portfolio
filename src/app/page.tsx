@@ -5,3 +5,7 @@ export default function Home() {
     </main>
   );
 }
+
+import type { ThemeName } from "@/types";
+
+const testTheme: ThemeName = "dracula"; // should show NO red underline
