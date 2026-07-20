@@ -1,0 +1,9 @@
+{
+  "Languages": ["Python", "TypeScript", "JavaScript", "SQL"],
+  "Frameworks": ["Next.js", "React", "FastAPI", "Flask"],
+  "Libraries": ["PyTorch", "TensorFlow", "LangChain", "Scikit-learn", "Pandas", "NumPy"],
+  "AI Tools": ["OpenAI API", "Hugging Face", "LlamaIndex", "Vector Databases"],
+  "Cloud": ["AWS", "Google Cloud", "Azure"],
+  "DevOps": ["Docker", "Git", "CI/CD", "Vercel"],
+  "Databases": ["PostgreSQL", "MongoDB", "Redis"]
+}
