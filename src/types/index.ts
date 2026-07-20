@@ -30,3 +30,6 @@ export type ThemeName =
   | "tokyo-night"
   | "catppuccin"
   | "monokai";
+
+  // Skills data shape: category name → list of skill names
+export type SkillsData = Record<string, string[]>;
