@@ -33,3 +33,20 @@ export type ThemeName =
 
   // Skills data shape: category name → list of skill names
 export type SkillsData = Record<string, string[]>;
+
+export interface Project {
+  id: string;
+  title: string;
+  description: string;
+  techStack: string[];
+  githubLink?: string;      // optional — some projects may not have public code
+  liveDemo?: string;        // optional — some projects may not be deployed
+  thumbnail: string;         // path to an image, e.g. "/assets/projects/foo.png"
+  category: string;          // e.g. "AI/ML", "Web App", "Tool"
+  tags: string[];
+  highlights: string[];      // short bullet points, e.g. "Reduced inference time by 40%"
+  features: string[];
+  screenshots: string[];     // array of image paths
+  duration: string;          // e.g. "3 months" or "Jan 2025 – Mar 2025"
+  status: "completed" | "in-progress" | "archived";
+}
