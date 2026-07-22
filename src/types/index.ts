@@ -50,3 +50,41 @@ export interface Project {
   duration: string;          // e.g. "3 months" or "Jan 2025 – Mar 2025"
   status: "completed" | "in-progress" | "archived";
 }
+
+export interface Experience {
+  id: string;
+  role: string;
+  company: string;
+  duration: string;         // e.g. "Jun 2024 – Present"
+  description: string;
+  techStack: string[];
+}
+
+export interface Education {
+  id: string;
+  degree: string;
+  institution: string;
+  duration: string;
+  description?: string;
+}
+
+export interface Certification {
+  id: string;
+  title: string;
+  issuer: string;
+  date: string;
+  link?: string;
+}
+
+export interface ContactInfo {
+  github: string;
+  linkedin: string;
+  email: string;
+  resume: string;      // path to resume.pdf in public/
+  location: string;
+  leetcode?: string;
+  kaggle?: string;
+  huggingface?: string;
+  medium?: string;
+  x?: string;
+}
